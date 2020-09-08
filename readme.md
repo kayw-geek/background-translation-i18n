@@ -54,6 +54,8 @@ A more complex example including database table with multilingual support is bel
 
 
 ## Usage:no_mouth:
+### Point
+Every time a JSON file is uploaded, it will be judged based on the existing data and will not cause data duplication.
 
 ### URLs
 
