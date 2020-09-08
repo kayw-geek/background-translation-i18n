@@ -1,0 +1,24 @@
+{
+  "name": "weikaiiii/background-translation-i18n",
+  "description": "Translate the i18n JSON file you need in the background of the website",
+  "keywords": ["yii2","i18n","vue","translation","language","module","extension"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "weikaiiii",
+      "email": "weikaiii@sina.cn"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-jui": "~2.0.0",
+    "yiisoft/yii2-bootstrap": "~2.0.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "weikaiiii\\backgroundTranslationI18n\\": ""
+    }
+  }
+}
