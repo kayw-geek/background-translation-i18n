@@ -58,6 +58,17 @@ A more complex example including database table with multilingual support is bel
 ### Point
 Every time a JSON file is uploaded, it will be judged based on the existing data and will not cause data duplication.
 
+### Json File Format Example
+```
+{
+   "library":{
+      "hello":"Hello from library"
+   },
+   "documents":{
+      "hello":"Hello from documents"
+   }
+}
+```
 ### URLs
 
 URLs for the translating tool:
