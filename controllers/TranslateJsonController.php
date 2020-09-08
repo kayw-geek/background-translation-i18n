@@ -146,4 +146,31 @@ class TranslateJsonController extends Controller
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
+    public function actionUpdate( $id )
+    {
+        $model = $this->findModel($id);
+        if (Yii::$app->request->post()) {
+            $post = Yii::$app->request->post();
+            $value = $post['value'];
+            $lang_code = $post['language_id'];
+            $tr = TranslateJsonValue::find()
+                ->where(['lang_code'=>$lang_code,'key_id'=>$id])
+                ->one();
+            if (!empty($tr)){
+                $tr->value = $value;
+                $tr->save(false);
+            }else{
+                $valueModel = new TranslateJsonValue();
+                $valueModel->key_id = $id;
+                $valueModel->lang_code = $lang_code;
+                $valueModel->value = $value;
+                $valueModel->save(false);
+            }
+
+            $re = json_encode(['code'=>200]);
+            return $re;
+        }
+
+    }
 }
