@@ -1,6 +1,7 @@
 # Yii2 - Background Translation I18n
 
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/weikaiiii/background-translation-i18n)[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)[![GitHub stars](https://img.shields.io/github/stars/Kay-Wei/background-translation-i18n.svg?style=social&label=Star&maxAge=2592000)](https://github.com/weikaiiii/background-translation-i18n)[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/kennethreitz)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKay-Wei%2Fbackground-translation-i18n.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKay-Wei%2Fbackground-translation-i18n?ref=badge_shield)
 
 
 :alien: Based on the YII2 module to translate JSON formatted translation files on the web
@@ -98,3 +99,7 @@ The project view part and language list part are borrowed from the "lajax/yii2-t
 
 - YII2 Translate Manager : https://github.com/lajax/yii2-translate-manager
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKay-Wei%2Fbackground-translation-i18n.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKay-Wei%2Fbackground-translation-i18n?ref=badge_large)
